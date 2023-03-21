@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sales.co</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside>
+   <div class="top">
+    <div class="logo">
+     <img src="./Images/logo.svg">
+     <h2>Sales.co</h2>
+    </div>
+   </div>
+   <div class="empty"></div>
+   <div class="sidebar">
+    <a href="#">
+     <img src ="./Images/Dash.svg"></img>
+     <h3>Dashboard</h3>
+    </a>
+    <a href="#">
+     <img src ="./Images/Product stock.svg"></img>
+     <h3>Product Stock</h3>
+    </a>
+    <a href="#">
+     <img src ="./Images/List Order.svg"></img>
+     <h3>List Order</h3>
+    </a>
+    <a href="#">
+     <img src ="./Images/Transaction.svg"></img>
+     <h3>Transactions</h3>
+    </a>
+    <a href="#">
+     <img src ="./Images/Sales order.svg"></img>
+     <h3>Sales Report</h3>
+    </a>
+     <a href="#"><h3>Preferences</h3></a>
+    <a href="#">
+     <img src ="./Images/Settings.svg"></img>
+     <h3>Settings</h3>
+    </a>
+    <a href="#">
+     <img src ="./Images/Help center.svg"></img>
+     <h3>Help Center</h3>
+    </a>
+   </div>
+    <div class="upgrade">
+     <img src="./Images/star.svg">
+     <h2>Pro Version</h2>
+     <p>eiusmond tempor
+      incididunt ut labore et
+      dolore magna aliqua.
+      </p>
+      <center><button>Upgrade</button></center>
+    </div>
+  </aside>
+  <div class="container">
+  <div class="header">
+   <div class="dash">
+   <h1>Dashboard</h1>
+   <h4>Tuesday, 10 January 2023</h4>
+   </div>
+   <div class="header-btn">
+    <img class="chat" src="./Images/Chat.svg">
+    <img class="notification" src="./Images/Notification.svg">
+    <img class="profile" src="./Images/Ellipse 7.svg">
+    </div>
+   <div class="search-div">
+    <a> <img src = "./Images/search.svg"></a>
+    <input class="search-input" type="text" placeholder="Search"/>
+   </div>
+  </div>
+  <div class="graph">
+   <div class="graph-title"><h2>Transaction Report</h2></div>
+   <div class="transaction-btn">
+    <button class="date">1 Jan 2023 - 20 Jan 2023 <img src="./Images/Vector.svg"></button>
+    <button class="import">Import <img src="./Images/Frame 51.svg"></button>
+   </div>
+   <table id="q-graph">
+    <tbody>
+    <tr class="qtr" id="q1">
+    <th scope="row">11/01</th>
+    <td class="sent bar" style="height: 111px;"></td>
+    <td class="paid bar" style="height: 99px;"></td>
+    </tr>
+    <tr class="qtr" id="q2">
+    <th scope="row">12/01</th>
+    <td class="sent bar" style="height: 206px;"></td>
+    <td class="paid bar" style="height: 194px;"></td>
+    </tr>
+    <tr class="qtr" id="q3">
+    <th scope="row">13/01</th>
+    <td class="sent bar" style="height: 259px;"></td>
+    <td class="paid bar" style="height: 193px;"></td>
+    </tr>
+    <tr class="qtr" id="q4">
+    <th scope="row">14/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q5">
+    <th scope="row">15/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q6">
+    <th scope="row">16/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q7">
+    <th scope="row">17/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q8">
+    <th scope="row">18/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q9">
+    <th scope="row">19/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q10">
+    <th scope="row">20/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    <tr class="qtr" id="q11">
+    <th scope="row">21/01</th>
+    <td class="sent bar" style="height: 110px;"></td>
+    <td class="paid bar" style="height: 195px;"></td>
+    </tr>
+    </tbody>
+    </table>
+    
+    <div id="ticks">
+    <div class="tick" style="height: 59px;"></div>
+    <div class="tick" style="height: 59px;"><p>$50k</p></div>
+    <div class="tick" style="height: 59px;"><p>$30k</p></div>
+    <div class="tick" style="height: 59px;"><p>$20k</p></div>
+    <div class="tick" style="height: 59px;"><p>$10k</p></div>
+    <div class="bottom-tick" style="height: 0px;"><p>$0k</p></div>
+    </div>
+  </div>
+  <div class="total">
+   <div class="income">
+    <img src="./Images/Income.svg">
+    <h3>Total Income</h3>
+    <h1>$500M</h1>
+    <h5><div class="green">+5%</div>from last month</h5>
+   </div>
+   <div class="order">
+    <img src="./Images/Order.svg">
+    <h3>Total Orders</h3>
+    <h1>300</h1>
+    <h5><div class="green">+5%</div>from last month</h5>
+   </div>
+   <div class="group">
+    <img src="./Images/group.svg">
+    <h3>Total Views</h3>
+    <h1>800</h1>
+    <h5><div class="green">+5%</div>from last month</h5>
+   </div>
+   <div class="rate">
+    <img src="./Images/Rate.svg">
+    <h3>Conversion Rate</h3>
+    <h1>50%</h1>
+    <h5><div class="red">-2%</div>from last month</h5>
+   </div>
+  </div>
+  <div class="recent"> 
+    <div class="recent-title"><h2>Top Selling</h2>
+      <button class="recent-btn"><p>See All</p><div class="arrow">></div></button>
+    </div>
+    <div style="overflow-x:auto;">
+    <table class="recent-table">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Total</th>
+        <th>Amount</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td><img src="./Images/Ellipse 15.svg"><div class="td1">Fresh Salad Bowl</div></td>
+        <td>11 Jan 2023</td>
+        <td>$40K</td>
+        <td>100 pack</td>
+        <td class="td-end"><div class="success">Success</div></td>
+      </tr>
+      <tr>
+        <td><img src="./Images/Ellipse 15.svg"><div class="td1">Zuppa Soup</div></td>
+        <td>12 Jan 2023</td>
+        <td>$20K</td>
+        <td>200 pack</td>
+        <td class="td-end"><div class="pending">Pending</div></td>
+      </tr>
+      <tr>
+        <td><img src="./Images/Ellipse 15.svg"><div class="td1">Pizza Fried Chicken</div></td>
+        <td>14 Jan 2023</td>
+        <td>$20K</td>
+        <td>200 pack</td>
+        <td class="td-end"><div class="failed">Failed</div></td>
+      </tr>
+      <tr>
+        <td><img src="./Images/Ellipse 15.svg"><div class="td1">Crispy Chicken Nugget</div></td>
+        <td>15 Jan 2023</td>
+        <td>$20K</td>
+        <td>200 pack</td>
+        <td class="td-end"><div class="success">Success</div></td>
+      </tr>
+      <tr>
+        <td><img src="./Images/Ellipse 15.svg"><div class="td1">Tempura Shrimp</div></td>
+        <td>18 Jan 2023</td>
+        <td>$10K</td>
+        <td>300 pack</td>
+        <td class="td-end"><div class="failed">Failed</div></td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  <div class="sale">
+  <div class="sale-title"><h2>Top Selling</h2>
+    <button class="sale-btn"><p>See All</p><div class="arrow">></div></button>
+  </div>
+  <div class="salad">
+    <img src="./Images/Ellipse 14.svg">
+    <h3>Fresh Salad Bowl</h3>
+    <h1>50%</h1>
+    <div class="salad-percent">
+      <div class="salad-percent-bold"></div>
+    </div>
+   </div>
+   <div class="noodle">
+    <img src="./Images/Ellipse 14.svg">
+    <h3>Noodle Inc</h3>
+    <h1>80%</h1>
+    <div class="noodle-percent">
+      <div class="noodle-percent-bold"></div>
+    </div>
+   </div>
+   <div class="hotdog">
+    <img src="./Images/Ellipse 14.svg">
+    <h3>Hotdog Sausage</h3>
+    <h1>40%</h1>
+    <div class="hotdog-percent">
+      <div class="hotdog-percent-bold"></div>
+    </div>
+   </div>
+   <div class="cheesecake">
+    <img src="./Images/Ellipse 14.svg">
+    <h3>Cheesecake Cream</h3>
+    <h1>55%</h1>
+    <div class="cheesecake-percent">
+      <div class="cheesecake-percent-bold"></div>
+    </div>
+   </div>
+  </div>
+  </div>
+ </div>
+ </body>
+</body>
+</html>
